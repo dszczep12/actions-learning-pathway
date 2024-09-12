@@ -23,7 +23,6 @@ jobs:
           node-version: ${{ inputs.node-version }}
 
       - run: npm install
-      - run: npm init
       - run: npm run build
 
   test: 
